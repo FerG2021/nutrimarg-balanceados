@@ -11,7 +11,7 @@
     </div>
 
     <div class="inside">
-            {!! Form::open(['url' => '/login']) !!} <!--Abrir un formulario con html colectivo-->
+            {!! Form::open(['url' => '/']) !!} <!--Abrir un formulario con html colectivo-->
         <label for="text">Usuario:</label>
         <div class="input-group">            
             <div class="input-group">

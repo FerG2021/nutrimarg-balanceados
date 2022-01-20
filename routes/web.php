@@ -19,8 +19,8 @@ use Illuminate\Support\Facades\Route;
 
 
 //login
-Route::get('/login', 'App\Http\Controllers\ConnectController@getLogin')->name('login'); //ruta para llamar el login
-Route::post('/login', 'App\Http\Controllers\ConnectController@postLogin')->name('login'); //ruta para llamar el login
+Route::get('/', 'App\Http\Controllers\ConnectController@getLogin')->name('login'); //ruta para llamar el login
+Route::post('/', 'App\Http\Controllers\ConnectController@postLogin')->name('login'); //ruta para llamar el login
 
 //registrar usuario
 Route::get('/register', 'App\Http\Controllers\ConnectController@getRegister')->name('register'); //ruta para llamar el login

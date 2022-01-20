@@ -92,7 +92,7 @@ class ConnectController extends Controller
     //LOGOUT PARA USUARIO
     public function getLogout(){
         Auth::logout();
-        return redirect('/login');
+        return redirect('/');
     }
 
     //PAGINA PRINCIPAL HOME

@@ -14,10 +14,10 @@
 
 
     
-    {{-- <!--script para jquery-->
+    <!--script para jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!--Script para Fontawesome-->
-    <script src="https://kit.fontawesome.com/b5b44e16f8.js" crossorigin="anonymous"></script> --}}
+    <script src="https://kit.fontawesome.com/b5b44e16f8.js" crossorigin="anonymous"></script>
 
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/b5b44e16f8.js" crossorigin="anonymous"></script>
