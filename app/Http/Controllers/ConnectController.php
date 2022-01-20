@@ -98,5 +98,5 @@ class ConnectController extends Controller
     //PAGINA PRINCIPAL HOME
     public function getHome(){
         return view('pages.home');
-    }
+    }   
 }
